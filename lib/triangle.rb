@@ -1,9 +1,7 @@
 class Triangle
   # write code here
-  attr_accessor :a, :b, :case object
-  when condition
-
-  end
+  attr_accessor :a, :b, :case
+  
   def initialize(a, b, c)
     @a = a
     @b = b
