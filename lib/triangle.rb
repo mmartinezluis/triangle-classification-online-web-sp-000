@@ -17,6 +17,8 @@ class Triangle
       elsif (@a != @b && @b != @c) && (@a>0 && @b>0 && @c>0 && (@a + @b > @c))
         :scalene
       else
+      end
+    else
       begin
         raise TriangleError
       rescue TriangleError
