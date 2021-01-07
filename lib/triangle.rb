@@ -6,7 +6,8 @@ class Triangle
     @side2 = side 2
     @side3 = side 3
   end
-  
+
   def kind
+    
 
 end
