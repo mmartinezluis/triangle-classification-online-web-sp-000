@@ -6,11 +6,10 @@ class Triangle
     @a = a
     @b = b
     @c = c
-    @sorted = [ ]
+    @sorted = [a, b, c].sort
   end
 
   def kind
-    binding.pry
     if (@a>0 && @b>0 && @c>0) && (@a + @b >= @c)
       if (@a == @b && @b == @c)
         :equilateral
