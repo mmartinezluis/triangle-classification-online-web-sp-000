@@ -18,7 +18,10 @@ class Triangle
     else
       begin
         raise TriangleError
-        
+      rescue TriangleError
+      end
+    end
+  end
 
 
 end
