@@ -10,7 +10,7 @@ class Triangle
   end
 
   def kind
-    if (@a>0 && @b>0 && @c>0) && (@sorted[0] + @sorted[1] >= @sorted[2])
+    if (@a>0 && @b>0 && @c>0) && (@sorted[0] + @sorted[1] > @sorted[2])
       if (@a == @b && @b == @c)
         :equilateral
       elsif (@a == @b || @a == @c || @b == @c)
