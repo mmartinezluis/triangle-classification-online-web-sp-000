@@ -1,6 +1,6 @@
 class Triangle
   # write code here
-  attr_accessor :a, :b, :c
+  attr_accessor :a, :b, :c, :sorted
 
   def initialize(a, b, c)
     @a = a
