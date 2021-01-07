@@ -6,6 +6,7 @@ class Triangle
     @a = a
     @b = b
     @c = c
+    @sorted =
   end
 
   def kind
