@@ -1,13 +1,13 @@
 class Triangle
   # write code here
-
-  def initialize(side1:, side2:, side3:)
-    @side1 = side 1
-    @side2 = side 2
-    @side3 = side 3
+  attr_accessor
+  def initialize(a, b, c)
+    @a = a
+    @b = b
+    @c = c
   end
 
   def kind
-    
+
 
 end
